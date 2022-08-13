@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Nunito:wght@700&family=Poppins:wght@300&display=swap');
+
+body {
+  background-color: beige;
+}
+
+.container {
+  text-align: center;
+  border: 3px solid;
+  border-radius: 20px;
+  font-family: 'nunito', sans-serif;
+}
+#title {
+  font-family: 'nunito', sans-serif;
+  margin: 0; padding: 0;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+
+.color {
+  border: 1px solid;
+  margin-top: 40px;
+  height: 40px;
+  width: 40px;
+  display: inline-block;
+}
+#color1 {
+ background-color: #000;
+}
+
+#color2 {
+ background-color: red;
+}
+
+#color3 {
+background-color: green;
+}
+
+#color4 {
+background-color: blue;
+}
+
+#color-palette {
+  text-align: center;
+  margin-bottom: 4px;
+}
+.selected .color{
+  background-color: black;
+}
+
+.pixel {
+ background-color: white;
+ border: 1px solid black;
+ box-sizing: border-box;
+ float: left;
+ height: 40px;
+ width: 40px;
+}
+
+.container-Button{
+  text-align: center;
+}
+.button {
+  width: 80px;
+  height: 25px;
+  border-radius: 45px;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  font-family: 'nunite';
+  letter-spacing: 2px;
+  font-weight: bolder;
+  box-shadow: 0px 8px 15px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #2ceae5;
+  transform: translateY(-7px);
+  color: #fff;
+  box-shadow: 0px 10px 25px;
+}
+
+#pixel-board {
+  display: block;
+  height: 200px; 
+  width: 200px;
+}
